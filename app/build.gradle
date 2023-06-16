@@ -66,6 +66,9 @@ android {
 
 dependencies {
 
+    // https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-stdlib
+    implementation group: 'org.jetbrains.kotlin', name: 'kotlin-stdlib', version: '1.8.22'
+
     implementation ('com.plcoding.calculatorprep:library:1.0.0') {
         exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk7'
     }
